@@ -1,0 +1,20 @@
+<html>
+   <head><title>On-chip HTML Page</title></head>
+   <body>
+      <img src="logo.jpg">
+      <h1>HTML page &quot;index.html&quot; located in module flash memory</h1>
+      This page is located in on-chip flash. It will be displayed
+      only when there is not an index.htm or index.html located in the
+      external flash card. To verify this, you can use ftp and copy the 
+      sample flash card &quot;index.html&quot; in the project
+      directory of this example. 
+      <br><br>
+      To display a directory of the external flash card, use "DIR" in the 
+      URL. For example, http://10.1.1.2/DIR. 
+      <br><br>
+      HTML pages used for dynamic web content that contain the FUNCTIONCALL
+      HTML tags must be known at compile-time, and so must reside in the
+      flash memory of the module. These pages can reference files on external
+      flash cards.
+   </body>
+</html>
